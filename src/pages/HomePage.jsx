@@ -30,7 +30,7 @@ const HomePage = () => {
   return (
     <div className="w-[95%] h-[90vh] p-4 bg-slate-400 flex flex-col">
       <h1 className="mb-3">Bingo</h1>
-      <div className="max-sm:h-[90%] h-[75%] bg-slate-700 rounded-md p-4">
+      <div className="max-sm:h-[80%] h-[75%] bg-slate-700 rounded-md p-4">
         <h3 className="mb-7">Lista de números</h3>
 
         <div className="grid gap-3 max-sm:grid-cols-7 grid-cols-9 max-sm:max-h-[600px] max-h-[80%] overflow-auto">
