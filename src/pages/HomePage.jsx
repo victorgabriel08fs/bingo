@@ -33,7 +33,7 @@ const HomePage = () => {
       <div className="max-sm:h-[80%] h-[75%] bg-slate-700 rounded-md p-4">
         <h3 className="mb-7">Lista de números</h3>
 
-        <div className="grid gap-3 max-sm:grid-cols-7 grid-cols-9 max-sm:max-h-[550px] max-h-[80%] overflow-auto">
+        <div className="grid gap-3 max-sm:grid-cols-7 grid-cols-9 max-sm:max-h-[500px] max-h-[80%] overflow-auto">
           {arr.map((num) => (
             <div key={num} className="p-2">
               <p
