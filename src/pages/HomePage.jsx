@@ -33,7 +33,7 @@ const HomePage = () => {
       <div className="max-sm:h-[80%] h-[75%] bg-slate-700 rounded-md p-4">
         <h3 className="mb-7">Lista de números</h3>
 
-        <div className="grid gap-3 max-sm:grid-cols-7 grid-cols-9 max-h-[40%] overflow-auto">
+        <div className="grid gap-3 max-sm:grid-cols-7 grid-cols-9 max-h-[60%] overflow-auto">
           {arr.map((num) => (
             <div key={num} className="p-2">
               <p
@@ -50,6 +50,11 @@ const HomePage = () => {
             </div>
           ))}
         </div>
+        {sorteados.length > 0 && (
+          <h3 className="mt-3 bg-white rounded-full flex justify-center items-center">
+            Número: {sorteados[sorteados.length - 1]}
+          </h3>
+        )}
       </div>
       <div className="self-center w-full flex gap-4 justify-center">
         <button
