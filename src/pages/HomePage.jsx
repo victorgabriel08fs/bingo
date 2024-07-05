@@ -52,7 +52,7 @@ const HomePage = () => {
         </div>
         {sorteados.length > 0 && (
           <div>
-            <h3 className="w-8 h-8 mt-3 text-black bg-white rounded-full flex justify-center items-center">
+            <h3 className="w-20 h-20 mt-3 text-black bg-white rounded-full flex justify-center items-center">
               Número: {sorteados[sorteados.length - 1]}
             </h3>
           </div>
