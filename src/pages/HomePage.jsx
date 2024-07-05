@@ -51,9 +51,11 @@ const HomePage = () => {
           ))}
         </div>
         {sorteados.length > 0 && (
-          <h3 className="mt-3 bg-white rounded-full flex justify-center items-center">
-            Número: {sorteados[sorteados.length - 1]}
-          </h3>
+          <div>
+            <h3 className="w-8 h-8 mt-3 text-black bg-white rounded-full flex justify-center items-center">
+              Número: {sorteados[sorteados.length - 1]}
+            </h3>
+          </div>
         )}
       </div>
       <div className="self-center w-full flex gap-4 justify-center">
