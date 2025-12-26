@@ -12,7 +12,7 @@ const HomePage = () => {
     if (sorteados.length === 90) {
       if (
         window.confirm(
-          "Foram sorteados todos os 75 números. Deseja reiniciar o jogo?"
+          "Foram sorteados todos os 90 números. Deseja reiniciar o jogo?"
         )
       ) {
         setSorteados([]);
