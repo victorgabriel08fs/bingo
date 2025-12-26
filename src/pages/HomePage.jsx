@@ -9,7 +9,7 @@ const HomePage = () => {
     return Math.floor(Math.random() * (max - min + 1)) + min;
   };
   const sortear = () => {
-    if (sorteados.length === 75) {
+    if (sorteados.length === 90) {
       if (
         window.confirm(
           "Foram sorteados todos os 75 números. Deseja reiniciar o jogo?"
@@ -18,13 +18,13 @@ const HomePage = () => {
         setSorteados([]);
       }
     } else {
-      const num = aleatorio(1, 75);
+      const num = aleatorio(1, 90);
       if (!sorteados.includes(num)) setSorteados([...sorteados, num]);
       else sortear();
     }
   };
   var arr = [];
-  for (var i = 1; i <= 75; i++) {
+  for (var i = 1; i <= 90; i++) {
     arr.push(i);
   }
   return (
